@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+header{
+  position: fixed;
+  top: 25px;
+  left: 35px;
+}
+.logo {
+  width: 110px;
+  height: 130px;
+  opacity: 1;
+  position: relative;
+}
+.title {
+  width: 306px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  left: 80px;
+  top: -70px;
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+  user-select: none;
+}
+body {
+  width: auto;
+  height: auto;
+  background: rgba(223, 231, 215, 1);
+  opacity: 1;
+  position: relative;
+  top: auto;
+  left: auto;
+}
+main {
+  width: 59%;
+  height: auto;
+  background: rgba(210, 218, 202, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 425px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+aside{
+  position: fixed;
+  right: 1%;
+  top: 25px;
+}
+.credits {
+  width: 234px;
+  color: rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 870px;
+  left: 100px;
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+section{
+  margin-left: 15px;
+}
+.ArticleDatePost {
+  width: auto;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.ArticleTitle {
+  width: auto;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.ArticleDescribe {
+  width: auto;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.SearchPanel {
+  width: 308px;
+  height: 61px;
+  background: rgba(253, 252, 252, 1);
+  opacity: 1;
+  position: relative;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.SearchIco {
+  width: 35px;
+  height: 29px;
+  background: url("../images/searchico.svg");
+  opacity: 1;
+  position: absolute;
+  opacity: 1;
+  top: 18px;
+  right: 10px;
+}
+.SearchText {
+  width: 76px;
+  color: rgba(0, 0, 0, 0.33000001311302185);
+  position: relative;
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  top: 10px;
+  left: 15px;
+  text-align: left;
+  user-select: none;
+}
+.SearchTagBg {
+  width: 308px;
+  height: 200px;
+  background: rgba(210, 219, 202, 1);
+  opacity: 1;
+  position: absolute;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding-left: 20px;
+  padding-top: 20px;
+  top: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.TagCatTitle {
+  width: 184px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+  user-select: none;
+}
+.TagDateTitle {
+  width: 115px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+  user-select: none;
+}
+.TagCat {
+  width: 230px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.TagDate {
+  width: 230px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.TagCatBg {
+  width: 230px;
+  height: 36px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-left: 10px;
+  overflow: hidden;
+  user-select: none;
+}
+.TagDateBg {
+  width: 230px;
+  height: 36px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-left: 10px;
+  overflow: hidden;
+  user-select: none;
+}
+.TagCatBgTxt {
+  width: 95px;
+  color: rgba(0, 0, 0, 0.33000001311302185);
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.TagDateBgTxt {
+  width: 48px;
+  color: rgba(0, 0, 0, 0.33000001311302185);
+  font-family: Andika;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
